@@ -1,3 +1,13 @@
 body {
-  background-color: aliceblue;
+  background-image: linear-gradient(to left, rgb(0, 170, 255), rgba(228, 239, 142, 0.815));
+  font-family: monospace;
+  margin: 10px;
+  text-align:center;
 }
+
+table, .tg{
+  border-style: solid;
+  border-color: white;
+  border-collapse: collapse;
+}
+
