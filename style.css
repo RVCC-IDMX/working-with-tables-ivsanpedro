@@ -11,6 +11,13 @@ body {
   letter-spacing: 3px;
 }
 
+#image{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+}
+
 #intro{
   font-size: 18px;
   border: 4px double white;
@@ -33,5 +40,27 @@ footer{
 
 #info{
   font-size: 15px;
+}
+
+/*Tablet*/
+@media screen and (min-width: 60em){
+  table{
+     width:100% 
+  }
+  #image{
+    display: block;
+    max-width: 640px;
+  }
+}
+
+/*Large Screen*/
+@media screen and (min-width:100em){
+  table{
+     width:100% 
+  }
+  #image{
+    display: block;
+    max-width: 100%;
+  }
 }
 
